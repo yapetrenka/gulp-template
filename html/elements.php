@@ -52,7 +52,8 @@ include("../templates/main/header.tpl.php");
         <div class="design-elements__row">
             <div class="design-elements__item">
                 <div class="ttl-base">Кнопки</div>
-                <a href="#dialog" class="open-dialog btn btn_primary" data-title="Диалог">Открыть диалог</a>
+                <a href="#dialog" class="open-dialog btn btn_base" data-title="Диалог">Открыть диалог</a>
+                <button class="btn btn_primary">Кнопка</button>
                 <button class="btn btn_secondary">Кнопка</button>
                 <button class="btn btn_attention">Кнопка</button>
             </div>

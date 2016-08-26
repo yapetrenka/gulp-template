@@ -1,4 +1,5 @@
-</div><?//main-center?>
+    <?if ($page!='index') {?></div><?}//.layout-main?>
+</main><?//.main-center?>
 
 <footer class="main-footer">
     <div class="layout-main">

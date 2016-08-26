@@ -7,6 +7,9 @@ global.$ = {
         jsFoundation: require('./gulp/paths/js.foundation.js')
     },
     gulp: require('gulp'),
+    argv: require('yargs').argv,
+    merge: require('merge-stream'),
+    buffer: require('vinyl-buffer'),
     gp: require('gulp-load-plugins')()
 };
 

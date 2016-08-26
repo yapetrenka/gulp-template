@@ -2,7 +2,9 @@
   color: $color-text;
   background-color: $color-bg;
   &:hover {
-    background-color: darken($color-bg, 8%);
+    background-color: transparent;
+    border-color: $color-bg;
+    color: $color-bg;
   }
 }
 

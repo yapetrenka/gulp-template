@@ -5,7 +5,8 @@
     </div>
 </header>
 
-<div class="main-center<?=$page!='index' ? ' layout-main' : ''?>">
+<main class="main-center">
     <?if ($page!='index') {?>
+    <div class="layout-main">
         <h1 class="ttl-base"><?=$PAGE['meta_title']?></h1>
     <?}?>

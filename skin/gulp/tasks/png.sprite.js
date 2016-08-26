@@ -1,6 +1,5 @@
 'use strict';
-var merge = require('merge-stream'),
-    buffer = require('vinyl-buffer');
+
 module.exports = function() {
     $.gulp.task('png.sprite', function() {
         var spriteData = $.gulp.src('images/png-sprite/*.png')
@@ -13,7 +12,7 @@ module.exports = function() {
         // Pipe image stream through image optimizer and onto disk
         var imgStream = spriteData.img
             // DEV: We must buffer our stream into a Buffer for `imagemin`
-            .pipe(buffer())
+            .pipe($.buffer())
             .pipe($.gp.imagemin())
             .pipe($.gulp.dest('images/'));
 
@@ -22,6 +21,6 @@ module.exports = function() {
             .pipe($.gulp.dest('styles/scss/base/sprite/'));
 
         // Return a merged stream to handle both `end` events
-        return merge(imgStream, cssStream);
+        return $.merge(imgStream, cssStream);
     })
 };

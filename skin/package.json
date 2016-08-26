@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "GrafExpo",
   "version": "0.1.0",
-  "author": "Elites Studio",
+  "author": "Olaola",
   "license": "ISC",
   "scripts": {
     "postinstall": "bower install"
@@ -12,6 +12,7 @@
     "gulp-cheerio": "^0.6.2",
     "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.3",
     "gulp-load-plugins": "^1.2.4",
     "gulp-notify": "^2.2.0",
@@ -24,6 +25,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp.spritesmith": "^6.2.1",
     "merge-stream": "^1.0.0",
-    "vinyl-buffer": "^1.0.0"
+    "vinyl-buffer": "^1.0.0",
+    "yargs": "^5.0.0"
   }
 }

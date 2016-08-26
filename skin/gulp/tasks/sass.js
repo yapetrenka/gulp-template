@@ -10,7 +10,7 @@ module.exports = function() {
                 cascade: false
             }))
             .pipe($.gp.cleanCss({compatibility: 'ie8'}))
-            .pipe($.gp.sourcemaps.write())
+            .pipe($.gp.if($.argv.dev, $.gp.sourcemaps.write()))
             .pipe($.gp.rename('app.css'))
             .pipe($.gulp.dest('styles'));
     })
