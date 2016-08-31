@@ -5,6 +5,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "3.1.0",
+    "jquery-migrate": "^3.0.0",
     "normalize-css": "normalize.css#^4.2.0",
     "jquery.maskedinput": "^1.4.1"
   }
