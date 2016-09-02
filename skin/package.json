@@ -1,7 +1,7 @@
 {
-  "name": "GrafExpo",
+  "name": "project",
   "version": "0.1.0",
-  "author": "Olaola",
+  "author": "Elites Studio",
   "license": "ISC",
   "scripts": {
     "postinstall": "bower install"
