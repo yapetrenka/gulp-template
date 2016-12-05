@@ -42,6 +42,21 @@
   }
 }
 
+@mixin input-placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
 @mixin media($width) {
   @media screen and (max-width: $width) {
     @content;

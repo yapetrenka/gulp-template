@@ -1,6 +1,6 @@
 <?
 $PAGE['meta_title'] = "Элементы";
-include("../templates/main/header.tpl.php");
+include($_SERVER['DOCUMENT_ROOT']."/templates/main/header.tpl.php");
 ?>
 
     <div class="design-elements">
@@ -166,5 +166,5 @@ include("../templates/main/header.tpl.php");
     </div>
 
 <?
-include("../templates/main/footer.tpl.php");
+include($_SERVER['DOCUMENT_ROOT']."/templates/main/footer.tpl.php");
 ?>

@@ -1,5 +1,9 @@
 .inp-base, .textarea-base, .select-base {
   @extend %form-element;
+  @include input-placeholder {
+    color: $input-placeholder-color;
+    opacity: 1;
+  }
 }
 
 .textarea-base {
